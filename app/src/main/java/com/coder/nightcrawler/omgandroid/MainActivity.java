@@ -1,9 +1,8 @@
 package com.coder.nightcrawler.omgandroid;
 
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
-import android.view.MenuItem;
 import android.widget.TextView;
 
 
@@ -16,7 +15,7 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mainTextView = (TextView)findViewById(R.id.main_textview);
-        mainTextView.setText("Set in java");
+        mainTextView.setText("Set in javaa");
     }
 
 
