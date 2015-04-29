@@ -15,7 +15,7 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mainTextView = (TextView)findViewById(R.id.main_textview);
-        mainTextView.setText("Set in javaa");
+        mainTextView.setText("Set in javaaa");
     }
 
 
